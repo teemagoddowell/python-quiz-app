@@ -1,5 +1,5 @@
 # python-quiz-app
-This is a tkinter python quiz app with questions API fromopentdb.com
+This is a tkinter python quiz app with questions API from opentdb.com
 
 Python Packages To Install
 - Tkinter
