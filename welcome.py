@@ -59,7 +59,7 @@ class WelcomePage:
 
         self.window.mainloop()
 
-    # Category Commands
+    # Category Command
     def maths_cat(self):
         self.q_category = 19
 
@@ -78,7 +78,7 @@ class WelcomePage:
     def music_cat(self):
         self.q_category = 12
 
-    # Question Commands
+    # Question Command
     def ten_q(self):
         self.q_num = 10
 

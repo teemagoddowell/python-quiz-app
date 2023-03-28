@@ -2,7 +2,6 @@ import requests
 from welcome import WelcomePage
 
 welcome = WelcomePage()
-
 CATEGORY = welcome.q_category
 NUMBERS = welcome.q_num
 
