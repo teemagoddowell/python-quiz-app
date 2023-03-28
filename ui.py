@@ -38,6 +38,7 @@ class QuizInterface:
     def get_next_question(self):
         self.canvas.config(background="white")
         self.scoreboard.config(text=f"Score: {self.quiz.score}/{self.quiz.question_number}")
+
         if self.quiz.still_has_questions():
             q_text = self.quiz.next_question()
             self.canvas.itemconfig(self.question_text, text=q_text)
